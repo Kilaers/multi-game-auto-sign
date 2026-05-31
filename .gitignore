@@ -1,0 +1,10 @@
+build
+dist
+skyland.spec
+logs
+.idea
+TOKEN.txt
+KURO_TOKEN.txt
+TAJIDUO_TOKEN.txt
+platforms.json
+.pyc
