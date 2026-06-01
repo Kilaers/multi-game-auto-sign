@@ -59,14 +59,18 @@ python src/main.py
 ---
 
 ## 华为云函数签到
-####！不建议用github action签到！，很大概率被封··
+#### 不建议用github action签到！，很大概率被封
+
 1、点击[华为云函数创建](https://console.huaweicloud.com/functiongraph/#/serverless/functions/create?from=dashboard)··
 
 创建账号，密码，实名认证完成后，点击右上角的'创建函数'按钮··
+
 <img width="650" height="423" alt="image" src="https://github.com/user-attachments/assets/e809c38d-9ca5-4b0b-bb8e-6a2f7abe441b" />
+
 2、进入选择运行时环境为定制运行时， 并填一下脚本名称（随便填）。其它设置不用动··
 
 <img width="1172" height="581" alt="image" src="https://github.com/user-attachments/assets/d32f5326-223c-4be7-9562-e1dfd9e04fe4" />
+
 3、将[华为云函数](https://github.com/Kilaers/multi-game-auto-sign/releases/tag/huaweiyun)下载，在函数界面点击右上角的上传zip··
 
 <img width="669" height="309" alt="image" src="https://github.com/user-attachments/assets/2f0517f8-4f5b-4d8b-bcbb-219be9043c7d" />
@@ -76,16 +80,20 @@ python src/main.py
 <img width="1356" height="488" alt="image" src="https://github.com/user-attachments/assets/91fbf6e0-868c-4381-981c-b254af021b26" />
 
 5、正常结束后是这个样子的
+
 <img width="974" height="474" alt="image" src="https://github.com/user-attachments/assets/6ec1a6a5-eaef-4671-bc3d-d3ec3960d7b9" />
 
 6、为了让脚本每天执行，我们需要创建一个触发器
 
 <img width="1025" height="637" alt="image" src="https://github.com/user-attachments/assets/f9391002-86a7-4051-bf42-ea37ae417755" />
+
 触发器类型请选择定时触发器
 
 <img width="766" height="835" alt="image" src="https://github.com/user-attachments/assets/bbb75229-f52f-489c-82c7-99c09d3e1df6" />
+
 触发器类型选择Cron表达式
 <img width="747" height="674" alt="image" src="https://github.com/user-attachments/assets/c3a2cc42-0362-4cc7-825a-29be071554c3" />
+
 然后填入这串东西0 1 1 * * ? 它指的是每天凌晨1点01分会执行一次
 <img width="906" height="831" alt="image" src="https://github.com/user-attachments/assets/d19350a4-7dbb-48cb-a548-f1f802346bd2" />
 
